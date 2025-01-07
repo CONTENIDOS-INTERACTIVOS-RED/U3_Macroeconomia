@@ -12,7 +12,6 @@
       )
         .indicador__container(v-if="mostrarIndicador && index === 1")
           .indicador--click
-        img.me-3(:src='elm.iconUrl' :style="{'width':'37px'}")
         span(v-html="elm.titulo")
   .tabs-c__content-item(
     v-for="elm of elements"

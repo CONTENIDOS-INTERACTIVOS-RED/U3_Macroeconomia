@@ -1,4 +1,37 @@
-
+.bg
+  &-1
+    background-color: #FBEADF
+  &-2
+    background-color: #e8edf7
+  &-3
+    background-color: #ECFCF6
+  &-4
+    background-color: #E4F2F4
+  &-5
+    background-color: #FADFD0
+    border-radius: 10px
+  &-6
+    background-color: #E3FBF2
+  &-7
+    background-color: #D4DDF0
+  &-8
+    background-color: #FEF8E7
+  &-9
+    background-color: #E5F8F8
+  &-10
+    background-color: #FDF4EE
+  &-11
+    background-color: #F5FDFA
+.bg-fondo
+  &-slider
+    background-image: url("../assets/bg/1.svg") !important
+    background-position: bottom
+  &-slider-2
+    background-image: url("../assets/bg/2.svg") !important
+    background-position: top
+  &-3
+    background-image: url("../assets/bg/blue.svg") !important
+    background-position: center
 .banner-principal-decorativo
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
@@ -17,6 +50,127 @@
 
   100%
     transform: translateY(0px)
-
+.ml-cus-1
+  margin-left: 1.5rem
 .container.tarjeta
   overflow-y: hidden
+
+/*COMPONENTS STYLES*/
+.acordion__header
+  background-color: #F5FDFA !important
+
+.acordion__header--active
+  background-color: $color-acento-contenido !important
+  h4, i
+    color: #000 !important
+
+.acordion__contenido
+  background-color: #E3FBF2 !important
+.slyder-a__tipo-b
+  background-color: #004A54 !important
+.slyder-a__bullets__item
+  border-color: #319AA8 !important
+  background-color: #319AA8 !important
+.slyder-a__bullets__item--active
+  background-color: #99CED6 !important
+  border-color: #99CED6 !important
+.shadow-soft 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 10px 15px rgba(0, 0, 0, 0.05);
+i.fas.fa-circle.color-acento-contenido
+  color: $color-acento-contenido
+  font-size: 12px
+.bg-color-white
+    background-color: #fff
+.linea-tiempo-d__item__content__title,
+.linea-tiempo-d__item__number
+    background-color: #F5FDFA !important
+.linea-tiempo-d.color-acento-contenido .linea-tiempo-d__item--selected .linea-tiempo-d__item__number
+  background-color: #A4F0D6 !important
+.linea-tiempo-d__item__content__title.active
+  background-color: #A4F0D6 !important
+.linea-tiempo-d__item__content__slot
+  background-color: #E3FBF2 !important
+.titulo-figura
+  margin-bottom: 24px
+  border-left: 0px solid
+  padding: 5px 0 5px 0px
+  h5
+    display: inline-block
+    margin-right: 10px
+    margin-bottom: 0
+.slyder-f__btn i 
+    background-color: $color-primario
+    color: #fff
+// Variables#0c1512#0c1512
+$custom-card-border-radius: 0px
+$custom-card-shadow: 0 4px 8px rgba(0,0,0,0.1)
+$custom-card-text-bg: #FFF
+$custom-card-text-padding: 15px
+$custom-card-text-font-size: 14px
+$custom-card-img-height: 322px
+.custom-image-card
+  border-radius: $custom-card-border-radius
+  overflow: hidden
+  box-shadow: $custom-card-shadow
+  height: 100%
+  background-color: $custom-card-text-bg
+  transition: transform 0.3s ease 
+  cursor: pointer
+  &:hover
+    transform: scale(1.01)
+  &__image
+    height: $custom-card-img-height
+    object-fit: cover
+
+.custom-image-card-2
+  border-radius: $custom-card-border-radius
+  overflow: hidden
+  box-shadow: $custom-card-shadow
+  height: 100%
+  background-color: $custom-card-text-bg
+  transition: transform 0.3s ease 
+  cursor: pointer
+  &:hover
+    transform: scale(1.01)
+  &__image
+    height: 224px
+    object-fit: cove
+// Full Width Background
+.bg-full-width
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: bottom
+  margin-inline: -3.3rem
+  @media screen and (max-width: $bp-max-sm)
+    padding-left: 1.5rem
+    padding-right: 1.5rem
+
+.tabs-c__tab--active
+  border-bottom: 4px solid $color-terciario !important
+
+i.fas.fa-circle
+  color: #000
+.icon-list 
+    font-size: 6px;
+    vertical-align: super;
+    color: #000 !important;
+.lista-ul--color li > i:first-of-type 
+    top: 10px !important
+    vertical-align: middle !important
+.ctn-actividad
+  background-color: #ebf1f5 !important
+  border-top: 5px solid #f5c145 !important
+  margin-top: 2rem
+.material-complem
+  p,a
+    font-size: 1rem !important
+  a
+    text-decoration: none
+    color: $color-sistema-texto
+.border-top
+  &.color-primario
+    border-top: 5px solid $color-primario !important
+  &.color-secundario
+    border-top: 5px solid $color-secundario !important
+  &.color-terciario
+    border-top: 5px solid $color-terciario !important
