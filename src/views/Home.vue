@@ -22,8 +22,8 @@
               .content-wrapper.px-lg-4.pt-lg-4.px-xxl-5.py-xxl-5.text-start
                 p.home-main-title UNIDAD {{ `${globalData.numeroUnidad}` }}
                 h1.home-title.mb-4 {{ globalData.tituloUnidad }}
-                p.descripcion.mb-4 Desde los inicios del análisis económico, los modelos han sido herramientas fundamentales para comprender el funcionamiento de las economías modernas. En esta unidad, se profundiza en los modelos macroeconómicos, los cuales ofrecen representaciones simplificadas de las interacciones entre hogares, empresas y gobiernos, así como de los factores externos como la globalización.
-                p.descripcion.mb-4.mb-lg-5.pb-lg-4.text-bold ¡Prepárese para comprender cómo las decisiones económicas impactan nuestra vida diaria y las dinámicas globales!
+                p.descripcion.mb-4 La economía global está marcada por decisiones económicas que trascienden fronteras y afectan el desarrollo de las naciones. En esta unidad, se estudia la interacción entre las políticas macroeconómicas y el contexto internacional, analizando estrategias como las políticas monetarias, fiscales y comerciales, y su impacto en la estabilidad financiera y el crecimiento económico.
+                p.descripcion.mb-4.mb-lg-5.pb-lg-4.text-bold ¡Prepárese para comprender los desafíos y oportunidades de la economía global con una perspectiva crítica y estratégica!
                 .button-container.mt-auto
                   router-link.btn-iniciar.w-100.w-md-auto(:to="{ name: 'introduccion' }")
                     .iniciar-btn-container.w-100.w-md-auto

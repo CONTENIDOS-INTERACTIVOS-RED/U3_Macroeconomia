@@ -2,7 +2,7 @@
 .curso-main-container.creditos-vista
   BannerInterno(subTitulo="SÍNTESIS")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    p.mb-4.mb-md-5 La Unidad 2: Teoría del consumidor y del productor, profundiza en los principios esenciales de la microeconomía, abordando cómo los consumidores optimizan su bienestar bajo restricciones presupuestarias y cómo las empresas gestionan su producción y costos para maximizar sus beneficios. A través de un análisis detallado de las preferencias, restricciones, utilidad y decisiones de producción, esta unidad proporciona herramientas claves para interpretar y aplicar conceptos económicos en contextos prácticos. Este enfoque integral sienta las bases para una comprensión sólida del comportamiento de los agentes económicos y su impacto en los mercados.
+    p.mb-4.mb-md-5 La Unidad 3: Políticas macroeconómicas y contexto global, explora las principales estrategias económicas a nivel global, destacando las políticas monetarias, fiscales y comerciales, y su impacto en el desarrollo económico. Además, analiza el efecto de la globalización en las economías y la gestión de crisis económicas. Este enfoque integral permite a los estudiantes adquirir una visión crítica de las interacciones económicas globales, capacitándolos para evaluar y proponer soluciones frente a los desafíos macroeconómicos contemporáneos.
     figure
       img(src='@/assets/curso/sintesis/sintesis.svg', alt='Texto que describa la imagen')
     
