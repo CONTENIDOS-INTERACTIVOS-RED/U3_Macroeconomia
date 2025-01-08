@@ -32,6 +32,9 @@
   &-3
     background-image: url("../assets/bg/blue.svg") !important
     background-position: center
+  &-4
+    background-image: url("../assets/bg/green-double.svg") !important
+    background-position: center
 .banner-principal-decorativo
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
@@ -63,7 +66,8 @@
   background-color: $color-acento-contenido !important
   h4, i
     color: #000 !important
-
+.br-15
+  border-radius: 15px !important
 .acordion__contenido
   background-color: #E3FBF2 !important
 .slyder-a__tipo-b
@@ -134,7 +138,11 @@ $custom-card-img-height: 322px
     transform: scale(1.01)
   &__image
     height: 224px
-    object-fit: cove
+    object-fit: cover
+.custom-image-card__image 
+    height: fit-content;
+    object-fit: none;
+
 // Full Width Background
 .bg-full-width
   background-size: cover
@@ -174,3 +182,15 @@ i.fas.fa-circle
     border-top: 5px solid $color-secundario !important
   &.color-terciario
     border-top: 5px solid $color-terciario !important
+.tabla-a.color-primario thead th,
+.tabla-a thead th:nth-child(odd),
+.tabla-a thead th:nth-child(even)
+    background-color: #EE9865 !important
+.tabla-a.color-primario thead tr, tbody tr
+    background-color: #FBEADF !important
+.tabla-a.color-primario thead tr, tbody tr:not(:last-child)
+    border-bottom: 1px solid #707070 !important
+.tabla-a.color-primario tbody td, thead tr th
+    border-left: 1px solid #707070 !important 
+.tabla-a.color-primario tbody tr td, thead tr th
+    border-right: 1px solid #707070 !important
