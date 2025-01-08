@@ -42,25 +42,27 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: '',
+        titulo: 'Impacto de la globalización en las economías',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
-            titulo: '',
+            titulo: 'Del comercio internacional al comercio global',
             hash: 't_2_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.2',
-            titulo: '',
+            titulo:
+              'Competitividad internacional: globalización de mercados financieros y de mano de obra',
             hash: 't_2_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.3',
-            titulo: '',
+            titulo:
+              'Principales rutas comerciales en el mundo y principales grupos y productos que se comercian',
             hash: 't_2_3',
           },
         ],
