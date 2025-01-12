@@ -19,7 +19,7 @@
           .col-lg-7
              h2.mb-4 Política monetaria 
              p.mb-4 En el PDF #[b Política monetaria], se abordan conceptos esenciales, ejemplos prácticos y el papel de instituciones como el Fondo Monetario Internacional, brindando un panorama claro sobre cómo estas decisiones impactan los mercados financieros y el bienestar económico general.
-             a.anexo.mb-4.bg-white.w-fit(:href='obtenerLink("/downloads/PEND.pdf")' target='_blank')
+             a.anexo.mb-4.bg-white.w-fit(:href='obtenerLink("/downloads/politica_monetaria.pdf")' target='_blank')
                .anexo__icono(:style='{"background-color": "#FCDFDB"}')
                   img(src='@/assets/template/icono-pdf.svg')
                .anexo__texto
@@ -69,7 +69,7 @@
           .col-lg-7
              h2.mb-4 Política fiscal 
              p.mb-4 En el PDF #[b Política fiscal], se presentan conceptos fundamentales, ejemplos prácticos y análisis de su impacto en aspectos como el ahorro, el consumo y la interacción con la política monetaria, proporcionando una visión integral sobre su papel en la economía nacional e internacional.
-             a.anexo.mb-4.bg-white.w-fit(:href='obtenerLink("/downloads/PEND.pdf")' target='_blank')
+             a.anexo.mb-4.bg-white.w-fit(:href='obtenerLink("/downloads/politica_fiscal.pdf")' target='_blank')
                .anexo__icono(:style='{"background-color": "#FCDFDB"}')
                   img(src='@/assets/template/icono-pdf.svg')
                .anexo__texto

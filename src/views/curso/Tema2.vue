@@ -29,7 +29,7 @@
           .col-lg-7
              h2.mb-4 Del comercio internacional al comercio global 
              p.mb-4 En el PDF #[b Del comercio internacional al comercio global], se exploran los cambios históricos, desde la eliminación de barreras comerciales hasta la integración de economías emergentes, analizando cómo estos procesos han configurado la competitividad mundial y las redes de producción y consumo globalizadas.
-             a.anexo.mb-4.bg-white.w-fit(:href='obtenerLink("/downloads/PEND.pdf")' target='_blank')
+             a.anexo.mb-4.bg-white.w-fit(:href='obtenerLink("/downloads/comercio_internacional_al_comercio_global.pdf")' target='_blank')
                .anexo__icono(:style='{"background-color": "#FCDFDB"}')
                   img(src='@/assets/template/icono-pdf.svg')
                .anexo__texto
