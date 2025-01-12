@@ -44,7 +44,7 @@
       .col-sm-12.col-lg-6
         TarjetaAudio.color-primario.mb-3(
           texto="Competitividad internacional: globalización de mercados financieros y de mano de obra"
-          :audio="require('../../assets/componentes/audios/audio-ej.mp3')"
+          :audio="require('../../assets/componentes/audios/competitividad_internacional.mp3')"
         )
 
     #t_2_3.titulo-segundo(data-aos='fade-up')
