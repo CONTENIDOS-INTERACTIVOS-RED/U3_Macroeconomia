@@ -100,7 +100,7 @@
           .row.align-items-center.p-4.p-md-5
             .col-sm-12.col-lg-7
               h5 Petróleo y gas
-              p.mb-0 El petróleo crudo y sus derivados, siguen siendo los productos más intercambiados en las rutas comerciales internacionales, especialmente entre Oriente Medio, América del Norte y Asia. Rusia, Arabia Saudita y Estados Unidos son los principales exportadores de petróleo, mientras que países como China e India son grandes importadores.
+              p.mb-0 El petróleo crudo y sus derivados, siguen siendo los productos más intercambiados en las rutas comerciales internacionales, especialmente entre Oriente Medio, América del Norte y Asia, Rusia, Arabia Saudita y Estados Unidos son los principales exportadores de petróleo, mientras que países como China e India son grandes importadores.
             .col-lg-5.d-none.d-lg-block
                 img(src='@/assets/curso/t2/7.png', alt='')
 

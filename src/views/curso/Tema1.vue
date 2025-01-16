@@ -181,7 +181,7 @@
           div(numero='3' titulo='Medidas no permitidas')
             p.mb-4 A nivel internacional, existen ciertas medidas que están prohibidas o restringidas por las reglas de comercio, especialmente las que se consideran prácticas comerciales desleales: 
             p.mb-0 #[b Dumping.] Práctica de vender productos en mercados internacionales a precios inferiores a los de producción, lo que puede perjudicar a las industrias locales. 
-            p.mb-0 #[b Subsidios prohibidos.] Subsidios a la exportación que distorsionan el comercio según la OMC.
+            p.mb-0 #[b Subsidios prohibidos.] Subsidios a la exportación que distorsionan el comercio y no están permitidos por la OMC.
 
     h2.mb-3(data-aos="fade-up") Intereses de los grupos poblacionales
     p.mb-5(data-aos="fade-up") Es importante destacar que la política comercial no afecta por igual a todos los sectores de la población, pues los intereses de los distintos grupos, pueden ser opuestos:

@@ -206,7 +206,7 @@ export default {
     {
       termino: 'Recesión',
       significado:
-        'Periodo prolongado de disminución de la actividad económica, con una caída en el Producto Interno Bruto (PIB), el empleo y la inversión',
+        'Periodo prolongado de disminución de la actividad económica, con una caída en el Producto Interno Bruto (PIB), el empleo y la inversión.',
     },
     {
       termino: 'TLC (Tratado de Libre Comercio)',
